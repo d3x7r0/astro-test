@@ -4,9 +4,7 @@
   "private": true,
   "module": "src/js/index.jsx",
   "type": "module",
-  "dependencies": {
-    "classnames": "^2.3.1",
-    "lodash-es": "^4.17.21",
-    "preact": "^10.8.2"
+  "peerDependencies": {
+    "preact": "^10.10.0"
   }
 }
