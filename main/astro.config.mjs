@@ -8,6 +8,12 @@ export default defineConfig({
   vite: {
     ssr: {
       noExternal: ['components']
+    },
+    resolve: {
+      dedupe: ['preact', 'preact/hooks'],
+    },
+    optimizeDeps: {
+      include: ['components']
     }
   }
 });

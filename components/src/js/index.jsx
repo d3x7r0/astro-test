@@ -1,4 +1,4 @@
-/* jsxImportSource: preact */
+import { h } from 'preact'
 import { useCallback } from 'preact/hooks'
 
 export const MyCustomComponent = () => {
