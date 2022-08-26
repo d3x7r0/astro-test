@@ -5,6 +5,6 @@
   "module": "src/js/index.jsx",
   "type": "module",
   "peerDependencies": {
-    "preact": "^10.10.0"
+    "preact": "^10.10.6"
   }
 }
